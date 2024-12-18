@@ -1,0 +1,76 @@
+/* Set a background image for the entire page */
+body {
+    background-image: url('images/stopwatch.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style_heading{
+    
+    font-size: 36px; /* Adjusts the size of the text */
+    color: #ffffff; /* Changes the text color */
+    text-align: center; /* Centers the text */
+    background-color: #6794ab; /* Sets a background color */
+    padding: 20px; /* Adds space inside the element */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(47, 60, 62, 0.1); /* Adds a shadow effect */
+}
+
+
+/* Styling for the message box */
+.message-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white; /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the stopwatch container (if interested) */
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#startStopButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+}
+
+#resetButton {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+}
